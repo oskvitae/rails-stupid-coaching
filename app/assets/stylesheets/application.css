@@ -13,3 +13,50 @@
  *= require_tree .
  *= require_self
  */
+
+ .phone-card {
+  background-color: rgb(97, 90, 160);
+  width: 600px;
+ margin: auto;
+ padding: 36px;
+ display: flex;
+ flex-direction: column;
+ }
+
+ .message {
+  background-color: rgb(139, 132, 200);
+  padding: 4px 16px;
+  border-radius: 4px;
+
+  color: white;
+  font-weight: 500;
+ }
+
+ .msg-left {
+  text-align: left;
+  justify-content: left;
+ }
+
+ .msg-right {
+  text-align: right;
+ }
+
+ h1 {
+  text-align: center;
+ }
+
+ #reask {
+  margin-top: 32px;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  color: gray;
+  padding: 4px 16px;
+  border-radius: 4px;
+ }
+
+ form {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+ }

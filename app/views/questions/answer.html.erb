@@ -1,6 +1,9 @@
 <h1>Coach Answers</h1>
 
-<h2>Your Question</h2>
-<%= @question %>
-<h2>Coach answer:</h2>
-<%= @answer %>
+<div class="phone-card">
+  <p class="message">Your Question:</p>
+  <p class="message mgs-left"> <%= @question %></p>
+  <p class="message msg-right">Coach answer:</p>
+ <p class="message msg-right"><%= @answer %></p>
+ <p id='reask'><%= link_to "< Ask another question", "/ask" %></p>
+</div>
